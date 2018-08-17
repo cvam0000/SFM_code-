@@ -1,0 +1,4 @@
+import os 
+os.system(raspistill -o example.jpg)
+os.system(mutt -s "Hey, I am a PI Bot. Captured an image" yash.1510188@kiet.edu  -a ./example.jpg)
+print 'Check your email'
